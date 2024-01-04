@@ -5,7 +5,6 @@ import { Routes, Route } from 'react-router-dom';
 import AddPost from './components/AddPost';
 import './style.css'
 
-
 function App() {
     let [posts, setPosts] = useState([]);
     
